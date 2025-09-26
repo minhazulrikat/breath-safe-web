@@ -238,8 +238,13 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 24px 0;
+    gap:5%;
     transition: all 0.4s ease-in;
+    div{
+      width:100%;
+    }
     img {
+      width:100%;
       display: block;
       cursor: pointer;
       text-align: center;
@@ -394,4 +399,5 @@ body {
     width: 80%;
   }
 }
+
 
