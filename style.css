@@ -233,21 +233,22 @@ body {
     margin-top: 24px;
     width: 100%;
   }
-  .payment {
+   .payment {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 24px 0;
-    gap:5%;
+    gap: 5%;
     transition: all 0.4s ease-in;
     div{
-      width:100%;
+      width: 100%;
     }
     img {
-      width:100%;
       display: block;
       cursor: pointer;
       text-align: center;
+      width: 100%;
+      
     }
   }
   .payment > div:hover {
@@ -399,5 +400,6 @@ body {
     width: 80%;
   }
 }
+
 
 
